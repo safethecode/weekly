@@ -22,7 +22,7 @@
 
 결국에는 RN에서는 각 운영체제와 관련된 브릿지를 통해서 네이티브 UI 구성 요소를 조작하게 되는 것입니다. 그렇기 때문에 RN에서 웹 형태로 내보내고자 하는 요구사항이 존재한다면 [React-native-web](https://github.com/necolas/react-native-web)과 같은 RN <> RNWeb <> Web 같은 레이어가 하나가 더 필요하게 됩니다.
 
-이 라이브러리는 현재까지 가장 완벽하고 널리 사용되지만 DX 및 UX 비용이 함께 증가한다는 단점이 있습니다. 이 단점은 RN의 비표준 API과 일치하도록 표준 API 및 이벤트 등을 수정해줘야 합니다. 그렇기 때문에 2022년 [RFC: React DOM for Native (reduce API fragmentation)](https://github.com/react-native-community/discussions-and-proposals/pull/496) 이라는 제목으로 제안이 올라오게 됩니다. 제안자는 React-native-web 라이브러리를 만들었던 메타 소속 개발자
+이 라이브러리는 현재까지 가장 완벽하고 널리 사용되지만 DX 및 UX 비용이 함께 증가한다는 단점이 있습니다. 이 단점은 RN의 비표준 API와 일치하도록 표준 API 및 이벤트 등을 수정해줘야 합니다. 그렇기 때문에 2022년 [RFC: React DOM for Native (reduce API fragmentation)](https://github.com/react-native-community/discussions-and-proposals/pull/496) 이라는 제목으로 제안이 올라오게 됩니다. 제안자는 React-native-web 라이브러리를 만들었던 메타 소속 개발자
 [Nicolas Gallagher](https://github.com/necolas) 입니다.
 
 > 니콜라스가 올린 제안을 보기 전에 [RFC: DOM traversal and layout APIs in React native](https://github.com/react-native-community/discussions-and-proposals/blob/main/proposals/0607-dom-traversal-and-layout-apis.md) 문서를 함께 보면 좋을 것 같습니다.
