@@ -1,5 +1,15 @@
 ### React Strict Dom (RSD)
 
+```
+# 3줄 요약
+
+- 리액트 네이티브를 웹과 네이티브 모두 지원하는 React Strict DOM (RSD)가 제안되었으며, 비표준 API를 줄이고 성능을 향상시키는 것이 목표입니다.
+
+- RSD는 Environment, Elements, Components, Props, Styling API 등 다양한 API를 포함하며, 이를 통해 개발자들은 브라우저와 네이티브 앱에서 더 효율적으로 개발할 수 있습니다.
+
+- React Native의 레이아웃 엔진으로 사용되는 Yoga에 대한 대안으로 Taffy가 제안되었고, 이러한 기술적인 발전이 React Native 생태계를 더욱 발전시킬 것으로 예상됩니다.
+```
+
 ###### StyleX
 
 최근 페이스북에서 개념 정도로 존재했고, 유저들이 그에 따라서 오픈소스로 만들었던 [StyleX](https://stylexjs.com/)가 세상에 등장하였습니다. 이에 따라서 **꽤 반응이 엇갈리기도** 합니다. 기존 React-Native 에서 사용되었던 [StyleSheet](https://reactnative.dev/docs/stylesheet) 형태와 비슷하여서 뜨겁지 못 한 반응도 있었고, StyleX 문서에 존재하는 [Thinking in StyleX](https://stylexjs.com/docs/learn/thinking-in-stylex) 문서를 정독 후 페이스북에서 어떤 이유에서 만들게 되었는지를 알 수 있는 반응도 있었습니다. 여기서 가장 중요한 것은 지금도 굉장히 많은 스타일링 도구들이 나오고 있고 우리는 이 과정에서 **선택과 집중을 해야 한다는 새로운 과제**가 눈앞에 있다고 생각됩니다.
